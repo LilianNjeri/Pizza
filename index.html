@@ -50,36 +50,33 @@
       </div>
     </div>
 
-        <div class="col-md">
+    <div class="col-md">
       <form class="myForm" id="">
-        <h2>Chosse your Pizza</h2>
+        <h2>Choose your Pizza</h2>
         <select id="pizzaFlavor" class="form-select select">
-          <option selected>Select Preffered Flavor</option>
-          <option value="1">Pepperoni</option>
-          <option value="2">Meat Deluxe</option>
-          <option value="3">Hawaiian</option>
+          <option value="">Pepperoni</option>
+          <option value="">Meat Deluxe </option>
+          <option value="">Hawaiian</option>
         </select>
         <select id="pizzaSize" class="form-select select">
-          <option selected>Select Preffered Size</option>
-          <option value="550">Small</option>
-          <option value="800">Medium</option>
-          <option value="1000">Large</option>
+          <option value="550">Small KES 550</option>
+          <option value="800">Medium KES 800</option>
+          <option value="1000">Large KES 1000</option>
         </select>
         <select id="pizzaCrust" class="form-select select">
-          <option selected>Select Preffered Crust</option>
-          <option value="300">Garlic & Parmesan coated crust</option>
-          <option value="200">Cheese Stuffed crust</option>
-          <option value="150">Flatbread</option>
+          <option value="300">Garlic & Parmesan coated crust KES 300</option>
+          <option value="200">Cheese Stuffed crust KES 200</option>
+          <option value="150">Flatbread KES 150</option>
         </select>
         <select id="pizzaTopping" class="form-select select">
-          <option selected>Select Preffered Topping</option>
-          <option value="300">Bacon</option>
-          <option value="200">Pineapples</option>
-          <option value="200">Pepperoni</option>
+          <option value="300">Bacon KES 300</option>
+          <option value="200">Pineapples KES 200</option>
+          <option value="200">Pepperoni KES 200</option>
         </select>
-        <button class="btn btn-primary submit">Submit</button>
+        <button id="pizzaOrder" class="btn btn-primary submit">Submit</button>
       </form>
     </div>
+    <div id="pizzaRow"></div>
 
     <script
       src="https://code.jquery.com/jquery-3.6.0.js"
@@ -91,6 +88,6 @@
       integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
       crossorigin="anonymous"
     ></script>
-    <script src="./js/script.js"></script>
+    <script src="jquery.js"></script>
   </body>
 </html>

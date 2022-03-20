@@ -1,0 +1,40 @@
+# Delani
+
+[Check it out](https://liliannjeri.github.io/Delani/)
+
+## Description.
+
+This is a web application that will allow customers to order different types of pizzas, with a crust they prefer as well as the toppings they would like on their pizza. This application also offers customers the option of having the pizza delivered to where they are
+
+## Author.
+
+> Lilian Njeri
+
+## Screenshot
+
+<img src="https://raw.githubusercontent.com/LilianNjeri/Delani/master/assets/delani.png">
+
+## Setup.
+
+> `git clone https://github.com/LilianNjeri/Delani.git `
+
+`extract the file`
+
+`cd to the akan directory`
+
+> `Open the index.html on your favorite browser`
+
+## Technologies used.
+
+- HTML5
+- Javascript
+- CSS
+- JQuery
+
+## BDD
+
+The user can be able to make an order and select their preferred toppings,flavour,crust and size of their choice and a alert pops up. If they want a delivery they can be able to do so as well by giving their location details, name, phone number,thereafter there is delivery fee alert.
+
+## License
+
+> MIT License &copy 2022 Lilian Njeri
