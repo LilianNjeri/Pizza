@@ -15,10 +15,10 @@ $(document).ready(function () {
       this.total = total;
     }
     var newPizza = new Pizza(size, topping, crust, total);
-    var totalOrder = "<p>Total</p>" + newPizza.total;
-    var sizeOrder = "<p>Size</p>" + newPizza.size;
-    var crustOrder = "<p>Crust</p>" + newPizza.crust;
-      var toppingOrder = "<p>Topping</p>" + newPizza.topping;
+    var totalOrder = "<p>Total </p>" + " " + newPizza.total;
+    var sizeOrder = "<p>Size </p>" + " " + newPizza.size;
+    var crustOrder = "<p>Crust </p>" + " " + newPizza.crust;
+    var toppingOrder = `<p>Topping </p>` + newPizza.topping;
 
     $("#pizzaRow").append(totalOrder + sizeOrder + crustOrder + toppingOrder);
   });

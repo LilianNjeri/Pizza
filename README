@@ -1,6 +1,6 @@
 # Delani
 
-[Check it out](https://liliannjeri.github.io/Delani/)
+[Check it out](https://liliannjeri.github.io/Pizza/)
 
 ## Description.
 
@@ -12,15 +12,15 @@ This is a web application that will allow customers to order different types of 
 
 ## Screenshot
 
-<img src="https://raw.githubusercontent.com/LilianNjeri/Delani/master/assets/delani.png">
+<img src="https://raw.githubusercontent.com/LilianNjeri/Pizza/master/assets/pizza.png">
 
 ## Setup.
 
-> `git clone https://github.com/LilianNjeri/Delani.git `
+> `git clone https://liliannjeri.github.io/Pizza/ `
 
 `extract the file`
 
-`cd to the akan directory`
+`cd to the pizza directory`
 
 > `Open the index.html on your favorite browser`
 
