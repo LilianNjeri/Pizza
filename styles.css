@@ -54,3 +54,7 @@
   margin: 20px;
   width: 100%;
 }
+
+.pizza-row {
+  display: flex;
+}
