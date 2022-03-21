@@ -15,11 +15,11 @@ $(document).ready(function () {
       this.total = total;
     }
     var newPizza = new Pizza(size, topping, crust, total);
-    var totalOrder = "<p>Total </p>" + " " + newPizza.total;
-    var sizeOrder = "<p>Size </p>" + " " + newPizza.size;
-    var crustOrder = "<p>Crust </p>" + " " + newPizza.crust;
-    var toppingOrder = `<p>Topping </p>` + newPizza.topping;
+    var totalOrder = `<p>Total KES ${newPizza.total}</p>`;
+    var sizeOrder = `<p>Size KES ${newPizza.size}</p>`;
+    var crustOrder = `<p>Crust KES ${newPizza.crust}</p>`;
+    var toppingOrder = `<p>Topping KES ${newPizza.topping}</p>`;
 
-    $("#pizzaRow").append(totalOrder + sizeOrder + crustOrder + toppingOrder);
+    $("#pizzaRow").append(sizeOrder + crustOrder + toppingOrder + totalOrder);
   });
 });
