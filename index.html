@@ -50,12 +50,12 @@
       </div>
     </div>
 
-    <div class="col-md">
+    <div class="form-container">
       <form class="myForm" id="">
         <h2>Choose your Pizza</h2>
         <select id="pizzaFlavor" class="form-select select">
           <option value="">Pepperoni</option>
-          <option value="">Meat Deluxe </option>
+          <option value="">Meat Deluxe</option>
           <option value="">Hawaiian</option>
         </select>
         <select id="pizzaSize" class="form-select select">
@@ -73,10 +73,28 @@
           <option value="200">Pineapples KES 200</option>
           <option value="200">Pepperoni KES 200</option>
         </select>
-        <button id="pizzaOrder" class="btn btn-primary submit">Submit</button>
+        <button id="pizzaOrder" class="btn btn-primary submit">Order Now</button>
+
+        <button id="more">Add More</button>
+
+        <div class="delivery">
+          <p>Would you like a delivery? </p>
+          <div class="deliverbtns">
+            <button class="btn btn-primary submit" id="yes">Yes</button>
+            <button class="btn btn-primary submit" id="no">No</button>
+          </div>
+         
+        </div>
+         <div class="checkbuttons">
+            <button class="btn btn-primary submit" id="buttonyess">Checkout</button>
+            <button class="btn btn-primary submit" id="buttonno">Checkout</button>
+          </div>
       </form>
+      <div class="pizza-row" id="pizzaRow">
+        <h1 class="summary">Order summary</h1>
+      </div>
+      
     </div>
-    <div class="pizza-row" id="pizzaRow"></div>
 
     <script
       src="https://code.jquery.com/jquery-3.6.0.js"

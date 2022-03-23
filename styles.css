@@ -54,8 +54,44 @@
   margin: 20px;
   width: 100%;
 }
+#more{
+   background-color: peru;
+  border: none;
+  margin: 20px;
+  width: 100%;
+  display: none;
+
+}
 
 .pizza-row {
   display: flex;
   flex-direction: column;
+  margin: 50px 20px;
 }
+.form-container {
+  display: flex;
+  flex-direction: row;
+}
+.order-text {
+  color: brown;
+  
+}
+.summary{
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  display: none;
+  
+}
+.delivery{
+  display: none;
+}
+ #buttonyess{
+  display: none;
+  
+}
+#buttonno{
+  display: none;
+}
+
